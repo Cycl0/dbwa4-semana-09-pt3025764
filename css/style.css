@@ -37,6 +37,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(139,255,184,0.5) 40%, rgba(189,255,213,0.6) 51%, rgba(185,226,199,0.6) 72%, rgba(213,255,222,0.7) 92%);
 }
 
 /* A elements that don't have a class get default styles */
@@ -78,6 +80,7 @@ select {
 /* Texto */
 
 h1 {
+  font-size: 40px;
   margin-top: 60px;
 }
 
